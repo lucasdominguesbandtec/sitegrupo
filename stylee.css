@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+.background{
+    float: left;
+    background-size: cover;
+    background-position: center;  
+}
+
+header{
+    float: left;
+    width: 100vw;
+    height:60px;
+    background: rgb(98, 223, 104);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10px 2px 2px rgb(13, 61, 7)
+}
+
+.logo {
+    padding: 20px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    padding: 110px; 
+}
+
+header a{
+    color: white;
+    transition: .2 ease-in-out;
+    font-size: 20px;
+}
+
+header nav ul li a:hover{
+    color: rgb(13, 241, 25);
+    transition: .2 ease-in-out;
+}
+.texto span{
+    font-size: 40px;
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#fotofundo{
+    background-image: url(ambiente.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1000;
+    width: 100vw;
+    height: 50vw;
+    }
